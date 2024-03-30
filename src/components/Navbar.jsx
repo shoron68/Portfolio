@@ -34,30 +34,30 @@ const Navbar = () => {
                         </div>
 
 
-                        <div className="lg:w-[30%] w-full  mt-[32px] lg:pt-[0] px-[10px] data-aos='fade-right'">
+                        <div className="lg:w-[30%] w-full  lg:mt-[32px] mt-[20px] lg:pt-[0] px-[10px] data-aos='fade-right'">
                             <h2 className='text-[28px] lg:text-start text-center font-pops text-[white]  font-medium border-b-[3px] pb-[5px]' data-aos='fade-in'>Contacts</h2>
-                            <div className=" mt-[30px]">
+                            <div className=" lg:mt-[30px] mt-[20px]">
                                 <div className="flex data-aos='fade-right'">
-                                    <div className="relative h-[39px] w-[40px] bg-[#DEC295] rounded-[50%]" data-aos='fade-right'>
-                                    <ImPhone   className=' font-pops  text-[18px]  absolute top-[26%] left-[27%]' data-aos='fade-right' />
+                                    <div className="relative lg:h-[39px] h-[34px] lg:w-[40px] w-[35px] bg-[#DEC295] rounded-[50%]" data-aos='fade-right'>
+                                    <ImPhone   className=' font-pops  text-[18px]  absolute lg:top-[26%] top-[23%] left-[27%]' data-aos='fade-right' />
                                     </div>
                                     <a href="tel:+8801715229688" className='font-pops text-[white] ml-[20px] mt-[7px]  duration-300 hover:text-[#DEC295]' data-aos='fade-right'>+880 1715 22 96 88</a>
                                 </div>
                                 <div className="flex my-[10px] data-aos='fade-right'">
-                                    <div className="relative h-[39px] w-[40px] bg-[#DEC295] rounded-[50%] "  data-aos='fade-left'>
-                                    <MdEmail className=' text-[18px]  absolute top-[26%] left-[27%]' data-aos='fade-left' />
+                                    <div className="relative lg:h-[39px] h-[34px] lg:w-[40px] w-[35px] bg-[#DEC295] rounded-[50%] "  data-aos='fade-left'>
+                                    <MdEmail className=' text-[18px]  absolute lg:top-[26%] top-[23%] left-[27%]' data-aos='fade-left' />
                                     </div>
                                     <a href=" to:th.shovon2014@gmail.com"  className='font-pops text-[white] ml-[20px] mt-[7px] duration-300 hover:text-[#DEC295]' data-aos='fade-left' >th.shovon2014@gmail.com</a>
                                 </div>
                                 <div className="flex data-aos='fade-right'">
-                                    <div className="relative h-[39px] w-[40px] bg-[#DEC295] rounded-[50%]" data-aos='fade-right'>
-                                    <CiGlobe  className=' text-[18px]  absolute top-[26%] left-[27%]' data-aos='fade-right'/>
+                                    <div className="relative lg:h-[39px] h-[34px] lg:w-[40px] w-[35px] bg-[#DEC295] rounded-[50%]" data-aos='fade-right'>
+                                    <CiGlobe  className=' text-[18px]  absolute lg:top-[26%] top-[23%] left-[27%]' data-aos='fade-right'/>
                                     </div>
                                     <a href="www.tanvircodex.com" className='font-pops text-[white] ml-[20px] mt-[7px] duration-300 hover:text-[#DEC295]' data-aos='fade-right' >www.tanvircodex.com</a>
                                 </div>
                                 <div className="flex  mt-[10px] data-aos='fade-right'">
-                                    <div className=" relative h-[39px] w-[40px] bg-[#DEC295] rounded-[50%]" data-aos='fade-left'>
-                                    <IoLocationSharp className=' text-[18px]  absolute top-[26%] left-[27%]' data-aos='fade-left'/>
+                                    <div className=" relative lg:h-[39px] h-[34px] lg:w-[40px] w-[35px] bg-[#DEC295] rounded-[50%]" data-aos='fade-left'>
+                                    <IoLocationSharp className=' text-[18px]  absolute lg:top-[26%] top-[23%] left-[27%]' data-aos='fade-left'/>
                                     </div>
                                     <a href="#" className='font-pops text-[white] ml-[20px]  w-[70%] duration-300 hover:text-[#DEC295]' data-aos='fade-left'>H# F-23, R# S-3, Eastern
                                         Housing 2nd Phase, Pallabi,
