@@ -10,7 +10,8 @@ export default {
       center: true,
     },
     fontFamily :{
-      'pops':' "Poppins", sans-serif'
+      'pops':' "Poppins", sans-serif',
+      'type':' "Inconsolata", monospace',
     }
     
   },

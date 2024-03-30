@@ -30,12 +30,12 @@ const Navbar = () => {
                         <div className="lg:w-[30%] w-full lg:text-start text-center data-aos='fade-up'" data-aos='fade-in'>
                             <img src={pp} className="h-[250px] w-[250px] bg-[white] lg:mx-0 mx-auto  "  alt="" />
                             <h1 className=' text-[#DEC295] font-pops text-[38px] font-bold'>TANVIR HASAN</h1>
-                            <h2 className='text-white font-pops text-[26px] font-semibold '> {text} <Cursor/> </h2>
+                            <h2 className='text-white font-type text-[26px] font-semibold '> {text}<Cursor/> </h2>
                         </div>
 
 
-                        <div className="lg:w-[30%] w-full  lg:mt-[32px] mt-[20px] lg:pt-[0] px-[10px] data-aos='fade-right'">
-                            <h2 className='text-[28px] lg:text-start text-center font-pops text-[white]  font-medium border-b-[3px] pb-[5px]' data-aos='fade-in'>Contacts</h2>
+                        <div className="lg:w-[30%] w-full  lg:mt-[32px] mt-[10px] lg:pt-[0] px-[10px] data-aos='fade-right'">
+                            <h2 className='text-[28px] lg:text-start text-center font-pops text-[#DEC295]  font-bold border-b-[3px] pb-[5px]' data-aos='fade-in'>Contacts</h2>
                             <div className=" lg:mt-[30px] mt-[20px]">
                                 <div className="flex data-aos='fade-right'">
                                     <div className="relative lg:h-[39px] h-[34px] lg:w-[40px] w-[35px] bg-[#DEC295] rounded-[50%]" data-aos='fade-right'>
