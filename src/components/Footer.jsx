@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <>
-    <div className=" relative after:absulate after:contents-[''] h-[2px] w-full top-0 left-0 bg-[rgba(0,0,0,0.46)]">
+    <div className=" relative after:absulate after:contents-[''] h-[2px] w-full top-0 left-0 bg-[rgba(0,0,0,0.46)] ">
     </div>
         <div className="bg-[#030303]">
 

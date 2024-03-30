@@ -1,13 +1,18 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import AOS from "aos";
+import "aos/dist/aos.css"
 
 const About = () => {
+    useEffect(()=>{
+        AOS.init({duration:"1200"})
+    })
     return (
-            <div className="bg-[#030303] lg:pt-[0] px-[10px]">
+            <div className="bg-[#030303] lg:pt-[0] px-[10px] ">
                 <div className="pt-[50px]">
                     <div className="container mx-auto lg:flex lg:justify-between">
-                        <div className="lg:w-[55%] w-full" >
+                        <div className="lg:w-[55%] w-full" data-aos='fade-up' >
                             <h2 className='lg:text-start text-center text-[34px] pb-[5px] font-pops text-[#DEC295] font-semibold border-b-2' >Work Experience</h2>
-                            <div className=" ">
+                            <div className=" " data-aos='fade-up'>
                                 <div className="flex justify-between mt-[50px] ">
                                     <h3 className='text-white lg:text-[18px] text-[16px] font-pops font-normal'>Support Engineer</h3>
                                     <h4 className='text-white lg:text-[18px] text-[16px] font-pops font-normal'>Aug 2023 -Present</h4>
@@ -22,7 +27,7 @@ const About = () => {
                                     practices standards. Additionally, took charge of resolving support tickets, and assigning
                                     appropriate tags based on priority.</p>
                             </div>
-                            <div className="">
+                            <div className=" " data-aos='fade-up'>
                                 <div className="flex justify-between mt-[50px]">
                                     <h2 className='text-white lg:text-[18px] text-[16px] font-pops font-normal'>Jr. Support Engineer</h2>
                                     <h3 className='text-white lg:text-[18px] text-[16px] font-pops font-normal'>Nov 2021 - Aug 2023</h3>
@@ -33,7 +38,7 @@ const About = () => {
                             </div>
 
 
-                            <div className="">
+                            <div className="" data-aos='fade-up' >
                                 <div className="flex justify-between mt-[50px]">
                                     <h2 className='text-white lg:text-[18px] text-[16px] font-pops font-normal'>Project Manager and Operation Head</h2>
                                     <h3 className='text-white lg:text-[18px] text-[16px] font-pops font-normal'>Nov 2017 - Oct 2021</h3>
@@ -44,7 +49,7 @@ const About = () => {
                             </div>
 
 
-                            <div className="">
+                            <div className="" data-aos='fade-up'>
                                 <div className="flex justify-between mt-[50px]">
                                     <h2 className='text-white lg:text-[18px] text-[16px] font-pops font-normal'>Chief Technology Officer (CTO) & Web Developer</h2>
                                     <h3 className='text-white lg:text-[18px] text-[16px] font-pops font-normal'>May 2017 - Oct 2017</h3>
@@ -56,7 +61,7 @@ const About = () => {
                             </div>
                         </div>
                         <div className="lg:w-[30%] w-full lg:pt-[0] pt-[20px]">
-                            <div className="">
+                            <div className="" data-aos='fade-up' >
                                 <h2 className='lg:text-start text-center text-[34px] pb-[5px] font-pops text-[#DEC295] font-semibold border-b-2'>About Me</h2>
                                 <p className='lg:mt-[50px] mt-[20px] text-[rgba(255,255,255,0.74)] lg:text-[16px] text-[12px] font-pops font-normal pt-[10px]'>I am a Web & WordPress enthusiast as
                                     well as a technical support specialist. I
@@ -75,8 +80,8 @@ const About = () => {
                                     latest trends and technologies in the field.</p>
                             </div>
 
-                            <div className="lg:mt-[50px] mt-[20px] text-center">
-                                <div className="">
+                            <div className="lg:mt-[50px] mt-[20px] lg:text-start text-center">
+                                <div className="" data-aos='fade-up'>
                                     <h2 className='lg:text-start text-center mt-[30px] text-[34px] pb-[5px] font-pops text-[#DEC295] font-semibold border-b-2'>Education</h2>
                                     <h4 className=' mt-[25px] text-[18px] font-pops font-bold text-[white]'>Diploma in Engineering
                                     </h4>
@@ -84,7 +89,7 @@ const About = () => {
                                     <h5 className=' mt-4 text-[16px] text-[#ffffffd3] font-pops '>2008 - 2012</h5>
                                 </div>
 
-                                <div className="">
+                                <div className="" data-aos='fade-up'>
                                     <h4 className=' mt-[25px] text-[18px] font-pops font-bold text-[white]'>Secondary School Certificate
                                     </h4>
                                     <h6 className='text-[px] font-pops font-bold text-[white]' >Dulai High School</h6>
