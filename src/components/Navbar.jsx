@@ -59,7 +59,7 @@ const Navbar = () => {
                                     <div className=" relative lg:h-[39px] h-[34px] lg:w-[40px] w-[35px] bg-[#DEC295] rounded-[50%]" data-aos='fade-left'>
                                     <IoLocationSharp className=' text-[18px]  absolute lg:top-[26%] top-[23%] left-[27%]' data-aos='fade-left'/>
                                     </div>
-                                    <a href="#" className='font-pops text-[white] ml-[20px]  w-[70%] duration-300 hover:text-[#DEC295]' data-aos='fade-left'>H# F-23, R# S-3, Eastern
+                                    <a href="#" className='font-pops text-[white] ml-[20px] lg:text-[18px] text-[14px]  lg:w-[70%] w-[80%]  duration-300 hover:text-[#DEC295]' data-aos='fade-left'>H# F-23, R# S-3, Eastern
                                         Housing 2nd Phase, Pallabi,
                                         Rupnagar, Dhaka - 1216</a>
                                 </div>
