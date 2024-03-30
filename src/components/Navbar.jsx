@@ -18,7 +18,7 @@ const Navbar = () => {
         AOS.init({duration:"1000"})
     })
     let [text]= useTypewriter ({
-        words: [ 'Support Engineer', ],
+        words: [ 'Support Engineer','WordPress Enthusiast' ],
         loop:{},
     })
 
